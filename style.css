@@ -1,0 +1,214 @@
+*{margin: 0px;padding: 0px;box-sizing: border-box;}
+
+header{display:flex;justify-content:space-around;position: sticky;top: 0%;background-color: aliceblue;}
+
+
+ul{display: flex;
+list-style: none;}
+
+li{margin: 20px;color: gray;}
+.hover{color: rgb(13,229,144);}
+li:hover{color: rgb(33,229,144);}
+li:hover {color:rgb(33,229,144);}
+.partie-1{
+text-align: center;
+}
+.partie-1 img{
+    margin: 30px;
+}
+.partie-1 h1{
+    color:#00b39b;
+    font-size: 44px;
+    word-spacing: 7px;
+}
+.parag{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    font-size: 20px;
+    
+}
+  p{width: 500px;
+    margin:60px;
+}
+.carte-1{
+    background-color:  #00b39b; color: white; width: 330px; height: 350px; border-radius: 10px;
+    padding: 40px; text-align: left;
+}
+.carte-2{
+    background-color: #3d83df; color: white; width: 330px; height: 350px; border-radius: 10px;
+    padding: 40px;margin: 0 15px; text-align: left;
+}
+.carte-3{
+    background-color: #1b2734; color: white; width: 330px; height: 350px; border-radius: 10px;
+   padding: 40px; text-align: left;
+}
+.centre-g h1{
+    color: #069d89;
+    margin: 10px 0 0 300px;
+    font-size: 40px;
+}
+.centre-g h3{
+    color: rgb(148, 145, 145);
+    margin: 10px 0 0 300px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.centre-g img {
+    margin: 90px 0 0 150px;
+}
+
+.s-cartes{
+    display: flex; text-align: center; justify-content: center;
+    margin: 20px;
+}
+.s-cartes h1{
+    font-size: 30px;
+    margin: 10px 0;
+}
+.s-cartes h2{
+    font-size: 22px;
+    word-spacing: 7px;
+}
+    .brands_logs{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100px;
+        justify-content: center;
+       margin: 15px 20px;
+    }
+    .site-web{
+        display: flex;
+        justify-content: center;
+        margin: 17px;
+    }
+    .site-web h1{font-size: 30px; color: #00b39b;margin: 15px 20px; }
+    .site-web ul {
+        width: 1000px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .titre-css{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #00b39b;
+    font-size: 18px;
+    margin: 24px;
+    }
+    .sous-titre{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: rgb(154, 147, 147);
+        font-size: 13px;
+        margin: 0 0 70px;
+    }
+
+
+
+.centre{display: flex;
+background-color: #b8f5ec;}
+.carré-1{
+    background-color: rgba(255, 255, 255, 0.796);
+    width: 230px;
+    height: 270px;
+    margin: 80px 17px 10px 30px;
+    text-align: center;
+    padding: 30px 10px;
+}
+.carré-2{
+    background-color: rgba(255, 255, 255, 0.796);
+    width: 230px;
+    height: 270px;
+    margin: 30px 0 0 29px;
+    text-align: center;
+    padding: 30px 10px;
+}
+.carré-3{
+    background-color: rgba(255, 255, 255, 0.796);
+    width: 230px;
+    height: 270px;
+    margin: 15px 80px 0 0 ;
+    text-align: center;
+    padding: 30px 10px;
+}
+.carré-4{
+    background-color: rgba(255, 255, 255, 0.796);
+    width: 230px;
+    height: 270px;
+    margin: 50px 0 0 0;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+.the-end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0 10px;
+    word-spacing: 7px;
+}
+.lien-titre{
+    display: flex;justify-content: center;align-items: center;
+}
+.lien-titre button:hover {
+  background-color: #034090;
+}
+.photos-site{flex-wrap: wrap; justify-content:space-evenly;
+margin-left: 100px;
+margin-right: 100px;display: flex
+}
+.iamge-1{
+display: flex;
+justify-content: space-between;
+padding: 10px;
+
+
+}
+.iamge-1 button{
+   background-color: #3d83df; 
+   padding: 10px 0;
+   color: white;
+   border: 1px solid #3d83df;
+   border-radius: 5px;
+   padding: 10px;
+
+}
+.iamge-1 button:hover{
+    background-color: #034fb3;
+}
+.photo-1{
+    margin: 10px;
+}
+.iamge-1:hover{
+    box-shadow: 5px 10px 18px #88888830;
+
+}
+footer h4{
+    text-align: center;
+    padding: 15px;
+
+}
+.lien-titre button{
+    background-color: #3d83df; 
+    padding: 10px 20px;
+    color: white;
+    border: 1px solid #3d83df;
+    border-radius: 5px;
+    margin-top: 20px;
+    word-spacing: 5px;
+    font-size: 15px;
+
+
+}
+.lien-titre a{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    margin-top: 60px;
+    color: rgb(139,133,133);
+}
